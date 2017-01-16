@@ -2,12 +2,11 @@
 <model ref="r:c1322c32-5429-4f1a-acba-0230757f94ed(NewLanguage.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
     <use id="120e1c9d-4e27-4478-b2af-b2c3bd3850b0" name="com.mbeddr.mpsutil.editor.querylist" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="jc77" ref="642f71f8-327a-425b-84f9-44ad58786d27/f:project#120e1c9d-4e27-4478-b2af-b2c3bd3850b0(jetbrains.mps.lang.project.modules/module.com.mbeddr.mpsutil.editor.querylist@project_stub)" />
     <import index="empn" ref="r:fff9cd48-7c9e-4b54-897e-82d395f7aeb4(NewLanguage.structure)" />
   </imports>
   <registry>
@@ -155,7 +154,7 @@
                     </node>
                   </node>
                   <node concept="3Tsc0h" id="7$IgyaF0NFI" role="2OqNvi">
-                    <ref role="3TtcxE" to="empn:7$IgyaF0dWZ" />
+                    <ref role="3TtcxE" to="empn:7$IgyaF0dWZ" resolve="as" />
                   </node>
                 </node>
                 <node concept="3zZkjj" id="7$IgyaF0PJt" role="2OqNvi">
@@ -220,7 +219,7 @@
                     </node>
                   </node>
                   <node concept="3Tsc0h" id="7$IgyaF0SYU" role="2OqNvi">
-                    <ref role="3TtcxE" to="empn:7$IgyaF0dWZ" />
+                    <ref role="3TtcxE" to="empn:7$IgyaF0dWZ" resolve="as" />
                   </node>
                 </node>
                 <node concept="3zZkjj" id="7$IgyaF0SYV" role="2OqNvi">
