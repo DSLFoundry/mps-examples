@@ -1,3 +1,8 @@
+/*
+Not entirely trivial example for using JNA.
+Many thanks to http://www.eshayne.com/jnaex/ for the reference material!
+ */
+
 import com.sun.jna.Library;
 import com.sun.jna.Structure;
 import java.util.List;

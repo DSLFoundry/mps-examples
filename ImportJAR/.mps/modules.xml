@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/LangUsingJNA/LangUsingJNA.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/JNA/JNA.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/SolutionForLangUsingJNA/SolutionForLangUsingJNA.msd" folder="" />
     </projectModules>
   </component>
 </project>
