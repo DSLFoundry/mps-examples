@@ -10,7 +10,6 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="m2v4" ref="r:54def62a-aaf1-4571-9084-b32c228eb077(LangUsingJNA.behavior)" />
     <import index="6vw" ref="r:f70ffb84-b2be-4907-b499-35a97675caf6(LangUsingJNA.structure)" implicit="true" />
   </imports>
   <registry>
