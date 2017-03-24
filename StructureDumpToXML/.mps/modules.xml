@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/StructureDumpToXML/StructureDumpToXML.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/StructureDumpToXML/sandbox/StructureDumpToXML.sandbox.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
