@@ -2,6 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/devkits/NestedGraphicalEditorDevkit/NestedGraphicalEditorDevkit.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/NestedGraphicalEditorLang/NestedGraphicalEditorLang.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/NestedGraphicalEditorSolution/NestedGraphicalEditorSolution.msd" folder="" />
     </projectModules>

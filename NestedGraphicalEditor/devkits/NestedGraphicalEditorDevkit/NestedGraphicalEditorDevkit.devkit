@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="NestedGraphicalEditorDevkit" uuid="6047762d-f0aa-49c0-a250-430287426f1d">
+  <exported-language name="c29d9791-7dab-48f1-947e-2a8f787782ce(NestedGraphicalEditorLang)" />
+  <exported-language name="8ca79d43-eb45-4791-bdd4-0d6130ff895b(de.itemis.mps.editor.diagram.layout)" />
+</dev-kit>
+
