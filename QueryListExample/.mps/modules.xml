@@ -2,10 +2,9 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/NewLanguage/NewLanguage.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.dslfoundry.example.querylist.splitlist/com.dslfoundry.example.querylist.splitlist.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.dslfoundry.example.querylist.subconcepts/com.dslfoundry.example.querylist.subconcepts.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/com.dslfoundry.example.querylist.subconcepts/sandbox/com.dslfoundry.example.querylist.subconcepts.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/NewSolution/NewSolution.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.dslfoundry.example.querylist.subconcepts/sandbox/com.dslfoundry.examples.querylist.msd" folder="" />
     </projectModules>
   </component>
 </project>
