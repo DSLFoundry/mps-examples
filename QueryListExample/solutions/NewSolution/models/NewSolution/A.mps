@@ -14,8 +14,14 @@
         <child id="8731989444183252799" name="as" index="3ibDOt" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
   </registry>
   <node concept="3ibHk0" id="7$IgyaF0e6p">
+    <property role="TrG5h" value="MyRoot" />
     <node concept="3ibDOp" id="7$IgyaF0g$T" role="3ibDOt">
       <property role="3ibDOn" value="a" />
     </node>

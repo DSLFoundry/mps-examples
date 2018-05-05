@@ -23,7 +23,6 @@
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
-      <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
       <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
@@ -206,9 +205,6 @@
           <node concept="ljvvj" id="7mBoIeDK8fk" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
-          <node concept="pj6Ft" id="7mBoIeDKh_N" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
           <node concept="l2Vlx" id="7mBoIeDKhDg" role="2czzBx" />
           <node concept="ARxKT" id="7mBoIeDKnYt" role="AS3tk">
             <node concept="3clFbS" id="7mBoIeDKnYu" role="2VODD2">
@@ -272,9 +268,6 @@
           <node concept="pVoyu" id="7mBoIeDK8gA" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
-          <node concept="pj6Ft" id="7mBoIeDKhPe" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
           <node concept="l2Vlx" id="7mBoIeDKhGP" role="2czzBx" />
           <node concept="ARxKT" id="7mBoIeDKpBA" role="AS3tk">
             <node concept="3clFbS" id="7mBoIeDKpBB" role="2VODD2">
@@ -318,9 +311,6 @@
         <ref role="28F8cf" to="v2nq:7mBoIeDJRuU" resolve="A" />
         <node concept="xShMh" id="7mBoIeDJS6E" role="3F10Kt">
           <property role="VOm3f" value="false" />
-        </node>
-        <node concept="pj6Ft" id="7mBoIeDJZJ4" role="3F10Kt">
-          <property role="VOm3f" value="true" />
         </node>
         <node concept="s8sZD" id="7mBoIeDJS6F" role="sbcd9">
           <node concept="3clFbS" id="7mBoIeDJS6G" role="2VODD2">
