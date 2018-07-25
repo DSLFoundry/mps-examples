@@ -28,6 +28,11 @@
   </languages>
   <imports />
   <registry>
+    <language id="2f7e2e35-6e74-4c43-9fa5-2465d68f5996" name="org.iets3.core.expr.collections">
+      <concept id="7554398283339759319" name="org.iets3.core.expr.collections.structure.ListLiteral" flags="ng" index="3iBYfx">
+        <child id="7554398283339759320" name="elements" index="3iBYfI" />
+      </concept>
+    </language>
     <language id="48712a59-7b30-4417-bab4-4d9094f13284" name="Entities">
       <concept id="5592608305559899620" name="Entities.structure.IntegerLiteral" flags="ng" index="Lke9V">
         <property id="5592608305559901363" name="value" index="LkfGG" />
@@ -75,6 +80,7 @@
         <child id="602952467877562565" name="members" index="S5Trm" />
       </concept>
       <concept id="8811147530084018361" name="org.iets3.core.expr.toplevel.structure.RecordMember" flags="ng" index="2Ss9d7" />
+      <concept id="8811147530084018358" name="org.iets3.core.expr.toplevel.structure.RecordDeclaration" flags="ng" index="2Ss9d8" />
       <concept id="4790956042240570348" name="org.iets3.core.expr.toplevel.structure.FunctionCall" flags="ng" index="1af_rf" />
       <concept id="4790956042240148643" name="org.iets3.core.expr.toplevel.structure.Function" flags="ng" index="1aga60" />
       <concept id="5070313213710414386" name="org.iets3.core.expr.toplevel.structure.RecordTypeAdapter" flags="ng" index="1lseON">
@@ -116,6 +122,13 @@
   </registry>
   <node concept="1weIeL" id="XvsrtJpNJU">
     <property role="TrG5h" value="MyModule" />
+    <node concept="2Ss9d8" id="61WTSB9CZb4" role="1weIeE">
+      <property role="TrG5h" value="myRecord" />
+      <node concept="2Ss9d7" id="61WTSB9CZeX" role="S5Trm">
+        <property role="TrG5h" value="somem" />
+        <node concept="LlrKN" id="61WTSB9CZfe" role="2S399n" />
+      </node>
+    </node>
     <node concept="1weCOn" id="61WTSB9Cc2z" role="1weIeE">
       <property role="TrG5h" value="someentity" />
       <node concept="2Ss9d7" id="61WTSB9Cc3W" role="S5Trm">
@@ -228,6 +241,17 @@
               <node concept="1af_rf" id="61WTSB9CM23" role="30czhm">
                 <ref role="1afhQb" node="61WTSB9C9zL" resolve="myfun" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1adJid" id="61WTSB9COxN" role="1aduh9">
+          <property role="TrG5h" value="zz" />
+          <node concept="3iBYfx" id="61WTSB9COBH" role="1adJii">
+            <node concept="Lke9V" id="61WTSB9CWMt" role="3iBYfI">
+              <property role="LkfGG" value="5" />
+            </node>
+            <node concept="Lke9V" id="61WTSB9CWMT" role="3iBYfI">
+              <property role="LkfGG" value="5" />
             </node>
           </node>
         </node>
