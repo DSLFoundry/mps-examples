@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="C:/repo/dslfoundry/mps-examples/KernelFEntities/languages/Entities/Entities.mpl" folder="" />
+      <modulePath path="C:/repo/dslfoundry/mps-examples/KernelFEntities/languages/Entities/sandbox/Entities.sandbox.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
