@@ -49,7 +49,6 @@
       </concept>
     </language>
     <language id="cfaa4966-b7d5-4b69-b66a-309a6e1a7290" name="org.iets3.core.expr.base">
-      <concept id="7425695345928347719" name="org.iets3.core.expr.base.structure.Expression" flags="ng" index="2vmvVl" />
       <concept id="7071042522334260296" name="org.iets3.core.expr.base.structure.ITyped" flags="ng" index="2_iKZX">
         <child id="8811147530085329321" name="type" index="2S399n" />
       </concept>
@@ -76,7 +75,19 @@
         <child id="602952467877562565" name="members" index="S5Trm" />
       </concept>
       <concept id="8811147530084018361" name="org.iets3.core.expr.toplevel.structure.RecordMember" flags="ng" index="2Ss9d7" />
+      <concept id="4790956042240570348" name="org.iets3.core.expr.toplevel.structure.FunctionCall" flags="ng" index="1af_rf" />
       <concept id="4790956042240148643" name="org.iets3.core.expr.toplevel.structure.Function" flags="ng" index="1aga60" />
+      <concept id="5070313213710414386" name="org.iets3.core.expr.toplevel.structure.RecordTypeAdapter" flags="ng" index="1lseON">
+        <child id="5070313213710414396" name="type" index="1lseOX" />
+      </concept>
+      <concept id="5070313213710413779" name="org.iets3.core.expr.toplevel.structure.BuilderExpression" flags="ng" index="1lsf3i">
+        <child id="5070313213710413789" name="adapted" index="1lsf3s" />
+        <child id="5070313213710413801" name="elements" index="1lsf3C" />
+      </concept>
+      <concept id="5070313213710413804" name="org.iets3.core.expr.toplevel.structure.FieldSetter" flags="ng" index="1lsf3H">
+        <reference id="5070313213710413814" name="field" index="1lsf3R" />
+        <child id="5070313213710413816" name="value" index="1lsf3T" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -89,6 +100,15 @@
       </concept>
     </language>
     <language id="9464fa06-5ab9-409b-9274-64ab29588457" name="org.iets3.core.expr.lambda">
+      <concept id="4790956042240983401" name="org.iets3.core.expr.lambda.structure.BlockExpression" flags="ng" index="1aduha">
+        <child id="4790956042240983402" name="expressions" index="1aduh9" />
+      </concept>
+      <concept id="4790956042241053102" name="org.iets3.core.expr.lambda.structure.ValExpression" flags="ng" index="1adJid">
+        <child id="4790956042241053105" name="expr" index="1adJii" />
+      </concept>
+      <concept id="4790956042240522396" name="org.iets3.core.expr.lambda.structure.IFunctionCall" flags="ng" index="1afhQZ">
+        <reference id="4790956042240522408" name="function" index="1afhQb" />
+      </concept>
       <concept id="4790956042240100911" name="org.iets3.core.expr.lambda.structure.IFunctionLike" flags="ng" index="1ahQWc">
         <child id="4790956042240100950" name="body" index="1ahQXP" />
       </concept>
@@ -179,11 +199,39 @@
         <node concept="Lklt7" id="61WTSB9CbQD" role="2S399l">
           <property role="Lklt6" value="bli" />
         </node>
+        <node concept="1lsf3i" id="61WTSB9Cchr" role="2S399l">
+          <node concept="1lseON" id="61WTSB9CchT" role="1lsf3s">
+            <node concept="1we4N$" id="61WTSB9CchR" role="1lseOX">
+              <ref role="1we3pp" node="61WTSB9Cc2z" resolve="someentity" />
+            </node>
+          </node>
+          <node concept="1lsf3H" id="61WTSB9CchY" role="1lsf3C">
+            <ref role="1lsf3R" node="61WTSB9Cc3W" resolve="membr" />
+            <node concept="LkeG4" id="61WTSB9Ccls" role="1lsf3T" />
+          </node>
+        </node>
       </node>
     </node>
-    <node concept="2zPypq" id="61WTSB9CbSi" role="1weIeE">
-      <property role="TrG5h" value="z" />
-      <node concept="2vmvVl" id="61WTSB9CbUg" role="2zPyp_" />
+    <node concept="1aga60" id="61WTSB9CpJC" role="1weIeE">
+      <property role="TrG5h" value="myfun2" />
+      <node concept="1aduha" id="61WTSB9CpMr" role="1ahQXP">
+        <node concept="1adJid" id="61WTSB9Cqn6" role="1aduh9">
+          <property role="TrG5h" value="bla" />
+          <node concept="1QScDb" id="61WTSB9CMrL" role="1adJii">
+            <node concept="3o_JK" id="61WTSB9CMtV" role="1QScD9">
+              <ref role="3o_JH" node="61WTSB9Cc3W" resolve="membr" />
+            </node>
+            <node concept="1QScDb" id="61WTSB9CMnZ" role="30czhm">
+              <node concept="3o_JK" id="61WTSB9CMpP" role="1QScD9">
+                <ref role="3o_JH" node="61WTSB9CbXZ" resolve="myMember4" />
+              </node>
+              <node concept="1af_rf" id="61WTSB9CM23" role="30czhm">
+                <ref role="1afhQb" node="61WTSB9C9zL" resolve="myfun" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
