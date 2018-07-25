@@ -80,7 +80,7 @@
     </language>
   </registry>
   <node concept="13h7C7" id="XvsrtJpNZh">
-    <ref role="13h7C2" to="cf7g:XvsrtJpNPj" resolve="MyRecordType" />
+    <ref role="13h7C2" to="cf7g:XvsrtJpNPj" resolve="EntityType" />
     <node concept="13hLZK" id="XvsrtJpNZi" role="13h7CW">
       <node concept="3clFbS" id="XvsrtJpNZj" role="2VODD2" />
     </node>
@@ -148,7 +148,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="XvsrtJpOwb">
-    <ref role="13h7C2" to="cf7g:XvsrtJpvMw" resolve="MyRecordDeclaration" />
+    <ref role="13h7C2" to="cf7g:XvsrtJpvMw" resolve="EntityDeclaration" />
     <node concept="13hLZK" id="XvsrtJpOwc" role="13h7CW">
       <node concept="3clFbS" id="XvsrtJpOwd" role="2VODD2" />
     </node>

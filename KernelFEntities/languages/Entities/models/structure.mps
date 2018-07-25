@@ -8,6 +8,7 @@
   <imports>
     <import index="yv47" ref="r:da65683e-ff6f-430d-ab68-32a77df72c93(org.iets3.core.expr.toplevel.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="hm2y" ref="r:66e07cb4-a4b0-4bf3-a36d-5e9ed1ff1bd3(org.iets3.core.expr.base.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -40,7 +41,7 @@
   </registry>
   <node concept="1TIwiD" id="XvsrtJpp86">
     <property role="EcuMT" value="1107729066018312710" />
-    <property role="TrG5h" value="MyModule" />
+    <property role="TrG5h" value="EntitiesModule" />
     <property role="34LRSv" value="mymod" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -57,8 +58,8 @@
   </node>
   <node concept="1TIwiD" id="XvsrtJpvMw">
     <property role="EcuMT" value="1107729066018340000" />
-    <property role="TrG5h" value="MyRecordDeclaration" />
-    <property role="34LRSv" value="myrd" />
+    <property role="TrG5h" value="EntityDeclaration" />
+    <property role="34LRSv" value="entity" />
     <ref role="1TJDcQ" to="yv47:7zXSNv$jGoK" resolve="AbstractTypeDeclaration" />
     <node concept="PrWs8" id="XvsrtJpvMx" role="PzmwI">
       <ref role="PrY4T" to="yv47:xu7xcKinTJ" resolve="IRecordDeclaration" />
@@ -66,8 +67,8 @@
   </node>
   <node concept="1TIwiD" id="XvsrtJpNPj">
     <property role="EcuMT" value="1107729066018422099" />
-    <property role="TrG5h" value="MyRecordType" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <property role="TrG5h" value="EntityType" />
+    <ref role="1TJDcQ" to="hm2y:6sdnDbSlaok" resolve="Type" />
     <node concept="PrWs8" id="XvsrtJpNPk" role="PzmwI">
       <ref role="PrY4T" to="yv47:3KgQFIke4um" resolve="IRecordType" />
     </node>
@@ -76,7 +77,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="record" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="XvsrtJpvMw" resolve="MyRecordDeclaration" />
+      <ref role="20lvS9" node="XvsrtJpvMw" resolve="EntityDeclaration" />
     </node>
   </node>
 </model>

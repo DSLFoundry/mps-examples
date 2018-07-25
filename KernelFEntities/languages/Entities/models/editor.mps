@@ -52,7 +52,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="XvsrtJpvMG">
-    <ref role="1XX52x" to="cf7g:XvsrtJpp86" resolve="MyModule" />
+    <ref role="1XX52x" to="cf7g:XvsrtJpp86" resolve="EntitiesModule" />
     <node concept="3EZMnI" id="XvsrtJpvMM" role="2wV5jI">
       <node concept="l2Vlx" id="XvsrtJpvMN" role="2iSdaV" />
       <node concept="3F0ifn" id="XvsrtJpvMI" role="3EZMnx">
@@ -83,11 +83,11 @@
     </node>
   </node>
   <node concept="24kQdi" id="XvsrtJpvNU">
-    <ref role="1XX52x" to="cf7g:XvsrtJpvMw" resolve="MyRecordDeclaration" />
+    <ref role="1XX52x" to="cf7g:XvsrtJpvMw" resolve="EntityDeclaration" />
     <node concept="3EZMnI" id="XvsrtJpvO0" role="2wV5jI">
       <node concept="l2Vlx" id="XvsrtJpvO1" role="2iSdaV" />
       <node concept="3F0ifn" id="XvsrtJpvNW" role="3EZMnx">
-        <property role="3F0ifm" value="record" />
+        <property role="3F0ifm" value="entity" />
       </node>
       <node concept="3F0A7n" id="XvsrtJpvOf" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -114,7 +114,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="XvsrtJpOvT">
-    <ref role="1XX52x" to="cf7g:XvsrtJpNPj" resolve="MyRecordType" />
+    <ref role="1XX52x" to="cf7g:XvsrtJpNPj" resolve="EntityType" />
     <node concept="1iCGBv" id="XvsrtJpOvV" role="2wV5jI">
       <ref role="1NtTu8" to="cf7g:XvsrtJpOvI" resolve="record" />
       <node concept="1sVBvm" id="XvsrtJpOvX" role="1sWHZn">
