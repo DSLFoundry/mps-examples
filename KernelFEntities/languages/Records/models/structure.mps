@@ -79,7 +79,7 @@
   <node concept="1TIwiD" id="1RrDQ1jFPVZ">
     <property role="EcuMT" value="2151497279162244863" />
     <property role="TrG5h" value="MyRecordType" />
-    <ref role="1TJDcQ" to="yv47:7D7uZV2dYz2" resolve="RecordType" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7D7uZV2iDXX" role="PzmwI">
       <ref role="PrY4T" to="lmd:6LLGpXJ1KPJ" resolve="ICanHaveMembersType" />
     </node>
